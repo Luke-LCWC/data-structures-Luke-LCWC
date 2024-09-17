@@ -1,7 +1,10 @@
 def task_1(): # Lists
 
     origional_list = ["Geoff", "Jeff", "Jeffrey"]
-
+    name = input("Give me a name: ")
+    origional_list.insert(0, name)
+    origional_list.remove(Jeff)
+    new_list = origional_list.copy()
     return new_list
 
 
