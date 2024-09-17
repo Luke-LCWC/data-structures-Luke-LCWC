@@ -12,6 +12,7 @@ def task_2(): # Dictionaries
 
     keys = ("name", "age", "profession")
     values = ("Geoff", 35, "technician")
+    person = zip(keys, values)
 
     return person
 
